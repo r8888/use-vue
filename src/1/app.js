@@ -1,3 +1,6 @@
+/**
+ * Vue通过props传方法，（逻辑统一在父组件处理的尝试）
+ */
 Vue.component("HelloWorld", {
   props: {
     handleClick: {
